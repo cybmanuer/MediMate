@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.a{
+  text-decoration: none;
+  color: black;
+}
 .sidebar{
   position: fixed;
   height: 100%;
@@ -74,7 +78,7 @@
 }
 .home-section{
   position: relative;
-  #background: #f5f5f5;
+  background: #f5f5f5;
   min-height: 100vh;
   width: calc(100% - 240px);
   left: 240px;
@@ -82,13 +86,13 @@
   margin: 0;
     padding: 0;
     font-family: montserrat;
-    #background:rgb(104, 228, 247);
+    background:rgb(104, 228, 247);
     background-image: url("https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    #background-size: contain;
-    #background:rgb(104, 228, 247);
+    background-size: contain;
+    background:rgb(104, 228, 247);
     height: 100vh;
     overflow: hidden;
 }
@@ -100,7 +104,7 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
-  #background: #838383;
+  background: #838383;
   display: flex;
   align-items: center;
   position: fixed;
@@ -120,6 +124,7 @@
   align-items: center;
   font-size: 24px;
   font-weight: 500;
+  
 }
 nav .sidebar-button i{
   font-size: 35px;
@@ -137,7 +142,7 @@ nav .search-box input{
   width: 100%;
   outline: none;
   background: #F5F6FA;
-  #background: black;
+  background: black;
   border: 2px solid #EFEEF1;
   border-radius: 6px;
   font-size: 18px;

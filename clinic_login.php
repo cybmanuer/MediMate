@@ -31,9 +31,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <link rel="stylesheet" type="text/css" href="css/login.css">
+     <link rel="stylesheet"  href="css/login.css">
     <title>Clinic_Login</title>
-  </head>
+  </head><style>
+   
+    .center{
+
+ padding-bottom:1%;
+
+}
+   
+
+  </style>
   <body>
     <?php
     if($login){

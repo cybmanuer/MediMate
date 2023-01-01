@@ -3,7 +3,7 @@ $login = false;
 $showError = false;
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     include 'config.php';
-    $username = $_POST["name"];
+    $name = $_POST["name"];
     $password = $_POST["password"]; 
     
      

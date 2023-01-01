@@ -8,9 +8,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   exit;
 }
 ?> 
-
-
-
 <!DOCTYPE html>
 <!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
@@ -23,6 +20,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
   <script src="https://kit.fontawesome.com/d676f25411.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="adminf.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 
    </head>
@@ -39,11 +37,15 @@ a{
 
 
 
+
+
 <body>
   <div class="sidebar">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus'></i>
-      <span class="logo_name">Admin</i></span>
+      <span class="logo_name"><a href="home.php"><img src="./images/logo_1.png" width="100%" height="40px"/></a></i></span>
+
+      <!-- <span class="logo_name">Admin</i></span> -->
 
     </div>
       <ul class="nav-links">
@@ -72,7 +74,7 @@ a{
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="contact.html">
             <i class='bx bx-coin-stack' ></i>
             <span class="links_name">Contact Us</span>
           </a>
@@ -92,9 +94,8 @@ a{
     <nav>
      
       <div class="profile-details">
-        <span class="admin_name"></span>
+        <span class="admin_name"><h2><i class="fa-solid fa-user-check"></i>     ADMIN</h2></span>
 
-        <i class='bx bx-chevron-down' ><?php echo htmlspecialchars($_SESSION["name"]); ?></a></i>
       </div>
 
       <div class="sidebar-button">

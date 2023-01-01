@@ -30,6 +30,8 @@ color: white;
   float: right;
   list-style: none;
   margin-top: 30px;
+  background-color: rgb(94, 206, 206);
+  bor
 }
 .nav-area li {
   display: inline-block;
